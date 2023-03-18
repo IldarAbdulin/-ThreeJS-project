@@ -1,0 +1,39 @@
+.navbar {
+  @apply w-full flex items-center py-5 fixed top-0 z-20 bg-primary;
+  &__main {
+    @apply w-full flex justify-between items-center max-w-7xl mx-auto;
+    .main__link {
+      @apply flex items-center gap-2;
+      img {
+        @apply w-12 h-12  object-contain;
+      }
+      p {
+        @apply text-white text-[18px] font-bold cursor-pointer flex;
+      }
+      span {
+        @apply sm:block hidden;
+      }
+    }
+    ul {
+      @apply list-none hidden sm:flex flex-row gap-10;
+      li {
+        @apply duration-150 hover:text-white text-[18px] font-medium cursor-pointer;
+      }
+    }
+  }
+  &__mobileV {
+    @apply sm:hidden flex flex-1 justify-end items-center;
+    img {
+      @apply w-[28px] h-[28px] object-contain cursor-pointer;
+    }
+    .menu {
+      @apply p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl;
+      ul {
+        @apply list-none flex justify-end items-start flex-col gap-4;
+        li {
+          @apply font-medium cursor-pointer text-[16px];
+        }
+      }
+    }
+  }
+}
