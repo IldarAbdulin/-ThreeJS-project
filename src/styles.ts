@@ -1,14 +1,6 @@
-interface stylesProps {
-  paddingX: string;
-  paddingY: string;
-  padding: string;
-  heroHeadText: string;
-  heroSubText: string;
-  sectionHeadText: string;
-  sectionSubText: string;
-}
+import { IStylesProps } from './interfaces';
 
-export const styles: stylesProps = {
+export const styles: IStylesProps = {
   paddingX: 'sm:px-16 px-6',
   paddingY: 'sm:py-16 py-6',
   padding: 'sm:px-16 px-6 sm:py-16 py-10',

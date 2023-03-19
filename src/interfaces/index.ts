@@ -1,10 +1,20 @@
+export interface IStylesProps {
+  paddingX: string;
+  paddingY: string;
+  padding: string;
+  heroHeadText: string;
+  heroSubText: string;
+  sectionHeadText: string;
+  sectionSubText: string;
+}
+
 export interface INavLinks {
   id: string;
   title: string;
 }
 export interface IServices {
   title: string;
-  icon: any;
+  icon: string;
 }
 export interface ITechnologies {
   name: string;
@@ -17,7 +27,7 @@ export interface IExperiences {
   icon: any;
   iconBg: string;
   date: string;
-  points: any;
+  points: string[];
 }
 
 export interface ITestimonials {

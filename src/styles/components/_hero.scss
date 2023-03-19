@@ -1,0 +1,24 @@
+.hero {
+  @apply relative w-full h-screen mx-auto;
+  &__main {
+    @apply absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5;
+    .main__content {
+      @apply flex flex-col justify-center items-center mt-5;
+      .content__purple-ball {
+        @apply w-5 h-5 rounded-full bg-[#915EFF];
+      }
+      .content__purple-line {
+        @apply w-1 sm:h-80 h-40 violet-gradient;
+      }
+    }
+  }
+  &__scroll {
+    @apply absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center;
+    .scroll__main {
+      @apply w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-1;
+      .main__motion {
+        @apply w-3 h-3 rounded-full bg-secondary mb-1;
+      }
+    }
+  }
+}

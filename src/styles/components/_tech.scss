@@ -1,0 +1,6 @@
+.tech {
+  @apply flex flex-row flex-wrap justify-center gap-10;
+  &__content {
+    @apply w-28 h-28;
+  }
+}
