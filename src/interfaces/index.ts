@@ -38,7 +38,7 @@ export interface ITestimonials {
   image: string;
 }
 
-interface ITags {
+export interface ITags {
   name: string;
   color: string;
 }
@@ -47,6 +47,6 @@ export interface IProjects {
   name: string;
   description: string;
   tags: ITags[];
-  image: any;
+  image: string;
   source_code_link: string;
 }

@@ -39,7 +39,7 @@ const ServiceCard = ({ index, title, icon }: ServiceCardProps) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant({ delay: 1 })}>
+      <motion.div variants={textVariant({ delay: 0.5 })}>
         <p className={`${styles.sectionSubText}`}>Introduction</p>
         <h2 className={`${styles.sectionHeadText}`}>Overview.</h2>
       </motion.div>

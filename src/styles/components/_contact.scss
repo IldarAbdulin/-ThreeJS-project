@@ -1,0 +1,9 @@
+.contact {
+  @apply xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden;
+  &__main {
+    @apply flex-[0.75] bg-black-100 p-8 rounded-2xl;
+  }
+  &__form {
+    @apply mt-12 flex flex-col gap-8;
+  }
+}

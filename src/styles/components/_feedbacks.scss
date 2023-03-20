@@ -1,0 +1,18 @@
+.feedbacks {
+  @apply mt-12 bg-black-100 rounded-[20px];
+  &__main {
+    @apply bg-tertiary rounded-2xl min-h-[300px];
+  }
+  &__content {
+    @apply -mt-20 pb-14 flex flex-wrap gap-7;
+  }
+}
+.feedbacks-card {
+  @apply bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full;
+  &__content {
+    @apply mt-7 flex justify-between items-center gap-1;
+    img {
+      @apply w-10 h-10 rounded-full object-cover;
+    }
+  }
+}

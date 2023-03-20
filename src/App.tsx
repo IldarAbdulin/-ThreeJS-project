@@ -6,7 +6,6 @@ import {
   Feedbacks,
   Hero,
   Navbar,
-  StarsCanvas,
   Tech,
   Works,
 } from './components';
@@ -25,7 +24,6 @@ function App() {
       <Feedbacks />
       <div className="app__footer">
         <Contact />
-        <StarsCanvas />
       </div>
     </div>
   );
